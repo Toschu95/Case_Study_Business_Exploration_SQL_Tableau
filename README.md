@@ -9,7 +9,7 @@ This repository contains code, visualizations and a brief business presentation 
 
 ```
 📂 10_sql/                             # SQL database dump & schema
-│── 📁 data/                           # Original SQL database source - containing magist_dump.sql (Not included in repo, see [download link](https://drive.google.com/file/d/1EpfzZvkNhpX9caW7xxRCNqBRJ5_kL3Vb/view?usp=sharing))
+│── 📁 data/                           # Original SQL database source - containing magist_dump.sql (Not included in repo, see download link)
 │── 📁 sql_queries/                    # SQL queries for data transformation & analysis
 │   ├── 01_schema_setup.sql            # Table creation, indexes, constraints
 │   ├── 02_views_and_procedures.sql    # Views, stored procedures
@@ -18,7 +18,7 @@ This repository contains code, visualizations and a brief business presentation 
 │   ├── run_queries.sh                 # Master script to execute all files
 │
 📂 20_tableau/                         # Extracted data & visualizations
-│── 📁 data/                           # CSV data sources extracted from SQL dump - containing *.csv files (Not included in repo, see [download link](https://drive.google.com/file/d/1ZwPF4KQvFtBU0SjXtve-1gG8W7-eDM4z/view?usp=sharing))
+│── 📁 data/                           # CSV data sources extracted from SQL dump - containing *.csv files (Not included in repo, see download link)
 │── main_workbook.twbx                 # Tableau workbook with individual sheets for visualization
 │
 📂 30_Final_Presentation/              # Final presentation

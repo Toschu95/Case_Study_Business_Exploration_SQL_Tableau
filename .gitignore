@@ -1,14 +1,4 @@
 # Ignore bigger data- and extract-files
-*.hyper
-*.tdsx
-*.twbx
-*.bak
 *.csv
 *.zip
-*.xls
-*.xlsx
 *dump.sql
-
-# Ignore sensible data
-config.json
-.env

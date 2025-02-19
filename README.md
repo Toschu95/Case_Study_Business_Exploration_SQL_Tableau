@@ -19,7 +19,7 @@ This repository contains code, visualizations and a brief business presentation 
 │
 📂 20_tableau/                         # Extracted data & visualizations
 │── 📁 data/                           # CSV data sources extracted from SQL dump - containing *.csv files (Not included in repo, see download link)
-│── analysis_workbook.twbx             # Tableau workbook with individual sheets for visualization
+│── main_workbook.twbx                 # Tableau workbook with individual sheets for visualization
 │
 📂 30_Final_Presentation/              # Final presentation
 │── 250215_Magist_Fit_Results.pdf      # PDF version of the presentation
@@ -93,7 +93,7 @@ This setup guide is written for **Mac**; adapt commands accordingly for other pl
    ./10_sql/sql_queries/run_queries.sh
    ```
 
-7. **Open `analysis_workbook.twbx` in Tableau to access visualization sheets.**
+7. **Open `main_workbook.twbx` in Tableau to access visualization sheets.**
 
 8. **If data sources are missing in Tableau:**
    - Go to **Data Sources → Edit Connection**.

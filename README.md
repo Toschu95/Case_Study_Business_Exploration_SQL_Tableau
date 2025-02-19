@@ -46,3 +46,55 @@ This repository contains code, visualizations and a brief business presentation 
 | `sellers.csv`                        | CSV     | Seller information extracted from SQL            |
 
 ---
+
+## Setup & Usage
+
+### Requirements
+
+- **Tableau Desktop** or **Tableau Public** (for visual exploration)
+- (Optional) Access to an SQL database for additional queries
+- This setup guide is written for **Mac**; adapt commands accordingly for other platforms.
+
+### Importing Database & Running Queries
+
+1. **Create the database in MySQL:**
+   ```sh
+   mysql -u your_user -p
+   CREATE DATABASE magist;
+   EXIT;
+   ```
+
+2. **Import the SQL dump:**
+   ```sh
+   mysql -u your_user -p magist < 10_SQL/magist_dump/magist_dump.sql
+   ```
+
+3. **Verify the data in MySQL:**
+   ```sh
+   mysql -u your_user -p
+   USE magist;
+   SHOW TABLES;
+   ```
+
+4. **Run additional SQL queries:**
+   ```sh
+   chmod +x 10_SQL/sql_queries/run_queries.sh
+   ./10_SQL/sql_queries/run_queries.sh
+   ```
+
+5. **Open `analysis_sheets.twbx` in Tableau to access visualization sheets.**
+
+6. **If data sources are missing in Tableau:**
+   - Go to **Data Sources → Edit Connection**.
+   - Select the new location of the CSV files or database.
+   - Refresh the data to ensure consistency.
+
+---
+
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** License. Since this case study is completed and not intended for modifications, this ensures proper attribution while preventing commercial use.
+
+---
+
+Since this case study is finalized, contributions are not required.

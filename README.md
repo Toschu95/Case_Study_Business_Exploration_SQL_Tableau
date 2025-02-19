@@ -100,7 +100,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
 ## Credits & Sources
 
-- **Data Source:** WBS Coding School
+- **Data Source:** [WBS Coding School](https://www.wbscodingschool.com/)
 - **Project conducted as part of the WBS Coding School Data Science Bootcamp**
 
 ---

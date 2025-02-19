@@ -32,9 +32,9 @@ This repository contains code, visualizations and a brief business presentation 
 
 The required SQL dump and CSV files are **too large to be included in the repository**. Please download them from the links below:
 
-**[Download `magist_dump`](https://drive.google.com/file/d/1EpfzZvkNhpX9caW7xxRCNqBRJ5_kL3Vb/view?usp=sharing)**
+**[`magist_dump`](https://drive.google.com/file/d/1EpfzZvkNhpX9caW7xxRCNqBRJ5_kL3Vb/view?usp=sharing)**
 
-**[Download `magist_csv`](https://drive.google.com/file/d/1ZwPF4KQvFtBU0SjXtve-1gG8W7-eDM4z/view?usp=sharing)**
+**[`magist_csv`](https://drive.google.com/file/d/1ZwPF4KQvFtBU0SjXtve-1gG8W7-eDM4z/view?usp=sharing)**
 
 | Filename                            | Format  | Description                                  |
 | ------------------------------------ | ------- | -------------------------------------------- |

@@ -98,4 +98,11 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
 ---
 
+## Credits & Sources
+
+- **Data Source:** WBS Coding School
+- **Project conducted as part of the WBS Coding School Data Science Bootcamp**
+
+---
+
 Since this case study is finalized, contributions are not required.

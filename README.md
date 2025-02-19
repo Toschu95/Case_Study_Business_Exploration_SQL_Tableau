@@ -19,7 +19,7 @@ This repository contains code, visualizations and a brief business presentation 
 │
 📂 20_tableau/                         # Extracted data & visualizations
 │── 📁 data/                           # CSV data sources extracted from SQL dump - *.csv (Not included in repo, see download link)
-│── analysis_sheets.twbx               # Tableau workbook with individual sheets for visualization
+│── analysis_workbook.twbx               # Tableau workbook with individual sheets for visualization
 │
 📂 30_Final_Presentation/              # Final presentation
 │── 250215_Magist_Fit_Results.pdf      # PDF version of the presentation
@@ -32,9 +32,9 @@ This repository contains code, visualizations and a brief business presentation 
 
 The required SQL dump and CSV files are **too large to be included in the repository**. Please download them from the links below:
 
-**Download [`magist_dump`](https://drive.google.com/file/d/1EpfzZvkNhpX9caW7xxRCNqBRJ5_kL3Vb/view?usp=sharing)**
+**[Download `magist_dump`](https://drive.google.com/file/d/1EpfzZvkNhpX9caW7xxRCNqBRJ5_kL3Vb/view?usp=sharing)**
 
-**Download [`magist_csv`](https://drive.google.com/file/d/1ZwPF4KQvFtBU0SjXtve-1gG8W7-eDM4z/view?usp=sharing)**
+**[Download `magist_csv`](https://drive.google.com/file/d/1ZwPF4KQvFtBU0SjXtve-1gG8W7-eDM4z/view?usp=sharing)**
 
 | Filename                            | Format  | Description                                  |
 | ------------------------------------ | ------- | -------------------------------------------- |
@@ -62,34 +62,40 @@ This setup guide is written for **Mac**; adapt commands accordingly for other pl
 
 ### Importing Database & Running Queries
 
-1. **Create the database in MySQL:**
+1. **Download and place `magist_dump.sql` in the `10_sql/magist_dump/` directory.**
+   
+3. **Create the database in MySQL:**
+
    ```sh
    mysql -u your_user -p
    CREATE DATABASE magist;
    EXIT;
    ```
 
-2. **Import the SQL dump:**
+4. **Import the SQL dump:**
+
    ```sh
-   mysql -u your_user -p magist < 10_SQL/magist_dump/magist_dump.sql
+   mysql -u your_user -p magist < 10_sql/magist_dump/magist_dump.sql
    ```
 
-3. **Verify the data in MySQL:**
+5. **Verify the data in MySQL:**
+
    ```sh
    mysql -u your_user -p
    USE magist;
    SHOW TABLES;
    ```
 
-4. **Run additional SQL queries:**
+6. **Run additional SQL queries:**
+
    ```sh
-   chmod +x 10_SQL/sql_queries/run_queries.sh
-   ./10_SQL/sql_queries/run_queries.sh
+   chmod +x 10_sql/sql_queries/run_queries.sh
+   ./10_sql/sql_queries/run_queries.sh
    ```
 
-5. **Open `analysis_sheets.twbx` in Tableau to access visualization sheets.**
+7. **Open `analysis_workbook.twbx` in Tableau to access visualization sheets.**
 
-6. **If data sources are missing in Tableau:**
+8. **If data sources are missing in Tableau:**
    - Go to **Data Sources → Edit Connection**.
    - Select the new location of the CSV files or database.
    - Refresh the data to ensure consistency.

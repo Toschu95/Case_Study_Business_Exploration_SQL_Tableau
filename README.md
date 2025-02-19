@@ -27,3 +27,20 @@ This repository contains code, visualizations and a brief business presentation 
 ```
 
 ---
+
+## 📂 Data Sources
+
+| Filename                            | Format  | Description                                  |
+| ------------------------------------ | ------- | -------------------------------------------- |
+| `magist_dump.sql`                    | SQL     | Original database dump used for data extraction  |
+| `customers.csv`                      | CSV     | Customer data extracted from SQL                 |
+| `geo.csv`                            | CSV     | Geographical data extracted from SQL             |
+| `order_items.csv`                    | CSV     | Order item details extracted from SQL            |
+| `order_payments.csv`                 | CSV     | Payment information extracted from SQL           |
+| `order_reviews.csv`                  | CSV     | Customer reviews extracted from SQL              |
+| `orders.csv`                         | CSV     | Order summary extracted from SQL                 |
+| `product_category_name_translation.csv` | CSV | Product category translations extracted from SQL |
+| `products.csv`                       | CSV     | Product details extracted from SQL               |
+| `sellers.csv`                        | CSV     | Seller information extracted from SQL            |
+
+---

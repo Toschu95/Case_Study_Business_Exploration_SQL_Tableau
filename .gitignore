@@ -3,6 +3,9 @@
 *.tdsx
 *.twbx
 *.bak
+*.csv
+*.zip
+*.xls*
 
 # Ignore sensible data
 config.json

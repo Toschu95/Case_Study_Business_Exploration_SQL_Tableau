@@ -1,0 +1,9 @@
+# Ignore bigger data- and extract-files
+*.hyper
+*.tdsx
+*.twbx
+*.bak
+
+# Ignore sensible data
+config.json
+.env

@@ -49,11 +49,12 @@ This repository contains code, visualizations and a brief business presentation 
 
 ## Setup & Usage
 
+This setup guide is written for **Mac**; adapt commands accordingly for other platforms.
+
 ### Requirements
 
+- **MySQL** installation is required to set up and use the magist database.
 - **Tableau Desktop** or **Tableau Public** (for visual exploration)
-- (Optional) Access to an SQL database for additional queries
-- This setup guide is written for **Mac**; adapt commands accordingly for other platforms.
 
 ### Importing Database & Running Queries
 

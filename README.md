@@ -115,4 +115,4 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
 ---
 
-Since this case study is finalized, contributions are not required.
+*Since this case study is finalized, contributions are not required.*

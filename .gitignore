@@ -5,7 +5,9 @@
 *.bak
 *.csv
 *.zip
-*.xls*
+*.xls
+*.xlsx
+*dump.sql
 
 # Ignore sensible data
 config.json

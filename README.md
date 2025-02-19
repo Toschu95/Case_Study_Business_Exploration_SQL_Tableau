@@ -19,7 +19,7 @@ This repository contains code, visualizations and a brief business presentation 
 │
 📂 20_tableau/                         # Extracted data & visualizations
 │── 📁 data/                           # CSV data sources extracted from SQL dump - *.csv (Not included in repo, see download link)
-│── analysis_workbook.twbx               # Tableau workbook with individual sheets for visualization
+│── analysis_workbook.twbx             # Tableau workbook with individual sheets for visualization
 │
 📂 30_Final_Presentation/              # Final presentation
 │── 250215_Magist_Fit_Results.pdf      # PDF version of the presentation

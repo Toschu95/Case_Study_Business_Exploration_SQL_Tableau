@@ -9,7 +9,7 @@ This repository contains code, visualizations and a brief business presentation 
 
 ```
 📂 10_sql/                             # SQL database dump & schema
-│── 📁 magist_dump/                    # Original SQL database source - magist_dump.sql (Not included in repo, see download link)
+│── 📁 data/                           # Original SQL database source - containing magist_dump.sql (Not included in repo, see download link)
 │── 📁 sql_queries/                    # SQL queries for data transformation & analysis
 │   ├── 01_schema_setup.sql            # Table creation, indexes, constraints
 │   ├── 02_views_and_procedures.sql    # Views, stored procedures
@@ -18,7 +18,7 @@ This repository contains code, visualizations and a brief business presentation 
 │   ├── run_queries.sh                 # Master script to execute all files
 │
 📂 20_tableau/                         # Extracted data & visualizations
-│── 📁 data/                           # CSV data sources extracted from SQL dump - *.csv (Not included in repo, see download link)
+│── 📁 data/                           # CSV data sources extracted from SQL dump - containing *.csv files (Not included in repo, see download link)
 │── analysis_workbook.twbx             # Tableau workbook with individual sheets for visualization
 │
 📂 30_Final_Presentation/              # Final presentation
@@ -62,7 +62,7 @@ This setup guide is written for **Mac**; adapt commands accordingly for other pl
 
 ### Importing Database & Running Queries
 
-1. **Download and place `magist_dump.sql` in the `10_sql/magist_dump/` directory.**
+1. **Download and place `magist_dump.sql` in the `10_sql/data/` directory.**
    
 3. **Create the database in MySQL:**
 
@@ -75,7 +75,7 @@ This setup guide is written for **Mac**; adapt commands accordingly for other pl
 4. **Import the SQL dump:**
 
    ```sh
-   mysql -u your_user -p magist < 10_sql/magist_dump/magist_dump.sql
+   mysql -u your_user -p magist < 10_sql/data/magist_dump.sql
    ```
 
 5. **Verify the data in MySQL:**

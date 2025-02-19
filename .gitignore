@@ -2,4 +2,7 @@
 *.csv
 *.zip
 *dump.sql
+
+# Ignore temporary/system files
 *~*
+.DS_Store
